@@ -1,0 +1,43 @@
+.blocks {
+  transform-origin: 20% 40%;
+  -webkit-transform:  rotate(110deg);
+  -moz-transform :  rotate(110deg);
+  -ms-transform: rotate(110deg);
+  -o-transform :  rotate(110deg);
+}
+
+.blocks > div{
+  height: 100px;
+  width: 100px;
+  color: black;
+  background-color: #396eff;
+  border: 1px solid black;
+}
+
+#one{
+  -webkit-transform : translate(200px) rotate(-90deg);
+  -moz-transform : translate(200px) rotate(-90deg);
+  -ms-transform: translate(200px) rotate(-90deg);
+  -o-transform : translate(200px) rotate(-90deg);
+}
+
+#two{
+  -webkit-transform : translate(301px,-1px) rotate(-90deg);
+  -moz-transform : translate(301px,-1px) rotate(-90deg);
+  -ms-transform: translate(301px,-1px) rotate(-90deg);
+  -o-transform : translate(301px,-1px) rotate(-90deg);
+}
+
+#three{
+  -webkit-transform : translate(200px) rotate(-90deg);
+  -moz-transform : translate(200px) rotate(-90deg);
+  -ms-transform: translate(200px) rotate(-90deg);
+  -o-transform : translate(200px) rotate(-90deg);
+}
+
+#four{
+  -webkit-transform : translate(99px,-202px) rotate(-90deg);
+  -moz-transform : translate(99px,-202px) rotate(-90deg);
+  -ms-transform: translate(99px,-202px) rotate(-90deg);
+  -o-transform : translate(99px,-202px) rotate(-90deg);
+}
