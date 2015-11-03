@@ -7,11 +7,12 @@
 }
 
 .blocks > div{
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   color: black;
   background-color: #396eff;
   border: 1px solid black;
+ padding: 5px;
 }
 
 #one{
@@ -22,22 +23,22 @@
 }
 
 #two{
-  -webkit-transform : translate(301px,-1px) rotate(-90deg);
-  -moz-transform : translate(301px,-1px) rotate(-90deg);
-  -ms-transform: translate(301px,-1px) rotate(-90deg);
-  -o-transform : translate(301px,-1px) rotate(-90deg);
+  -webkit-transform : translate(301px,0px);
+  -moz-transform : translate(301px,0px);
+  -ms-transform: translate(301px,0px);
+  -o-transform : translate(301px,0px));
 }
 
 #three{
-  -webkit-transform : translate(200px) rotate(-90deg);
-  -moz-transform : translate(200px) rotate(-90deg);
-  -ms-transform: translate(200px) rotate(-90deg);
-  -o-transform : translate(200px) rotate(-90deg);
+  -webkit-transform : translate(200px) rotate(90deg);
+  -moz-transform : translate(200px) rotate(90deg);
+  -ms-transform: translate(200px) rotate(90deg);
+  -o-transform : translate(200px) rotate(90deg);
 }
 
 #four{
-  -webkit-transform : translate(99px,-202px) rotate(-90deg);
-  -moz-transform : translate(99px,-202px) rotate(-90deg);
-  -ms-transform: translate(99px,-202px) rotate(-90deg);
-  -o-transform : translate(99px,-202px) rotate(-90deg);
+  -webkit-transform : translate(99px,-202px) rotate(-180deg);
+  -moz-transform : translate(99px,-202px) rotate(-180deg);
+  -ms-transform: translate(99px,-202px) rotate(-180deg);
+  -o-transform : translate(99px,-202px) rotate(-180deg);
 }
