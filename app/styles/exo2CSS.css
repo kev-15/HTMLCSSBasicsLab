@@ -1,0 +1,22 @@
+.systeme > div {
+  text-align: center;
+  border: 1px solid black;
+  line-height: 50px;
+  color: grey;
+  background-color: black;
+  margin: 10px;
+}
+
+.systeme > div > span {
+  color: grey;
+  position: absolute;
+  left: 250px;
+}
+
+.systeme{
+  transform-origin: left;
+  -webkit-transform : translate(25%, 55%) rotate(-90deg);
+  -moz-transform : translate(25%, 55%) rotate(-90deg);
+  -ms-transform: translate(25%, 55%) rotate(-90deg) ;
+  -o-transform : translate(25%, 55%) rotate(-90deg) ;
+}
